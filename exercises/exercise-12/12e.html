@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container{
+      width: 400px;
+      border-style: solid;
+      border-color: rgb(200, 200, 200);
+      border-width: 1px;
+      border-radius: 5px;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 12px;
+      padding-top: 5px;
+      padding-right: 12px;
+      padding-bottom: 5px;
+    }
+
+    .type, .number {
+      font-family: Arial;
+      font-size: 18px;
+    }
+
+    .number {
+      background-color: rgb(49, 109, 245);
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding-left: 15px;
+      padding-top: 5px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+      border-radius: 16px;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="type">Home</div>
+      <div class="number">14</div>
+    </div>
+    <div class="row">
+      <div class="type">Notifications</div>
+      <div class="number">3</div>
+    </div>
+    <div class="row">
+      <div class="type">Messages</div>
+      <div class="number">5</div>
+    </div>
+  </div>
+</body>
+</html>

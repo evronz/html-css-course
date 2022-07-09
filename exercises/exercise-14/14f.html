@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord</title>
+  <style>
+
+    body {
+      padding-bottom: 3000px;
+    }
+
+    .left-most-sidebar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      background-color: rgb(33, 33, 33);
+    }
+
+    .images {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      margin-top: 10px;
+      object-fit: cover;
+    }
+
+    .left-sidebar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 60px;
+      width: 180px;
+      background-color: rgb(55, 55, 55);
+    }
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-right: 10px;
+      margin-bottom: 16px;
+    }
+
+    .head-content {
+      font-family: Arial;
+      color: white;
+      font-weight: bold;
+    }
+
+    .plus-sign {
+      font-size: 25px;
+      font-weight: bold;
+      color: rgb(150, 150, 150);
+    }
+
+    .channel {
+      color: rgb(150, 150, 150);
+      margin-bottom: 15px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="left-most-sidebar">
+    <img src="cat.jpeg" class="images">
+    <img src="dog.jpg" class="images">
+    <img src="rat.jpeg" class="images">
+  </div>
+  <div class="left-sidebar">
+    <div class="head">
+      <div class="head-content">INFO</div>
+      <div class="plus-sign">&#43;</div>
+    </div>
+    <div class="channel">&#35; new&#45;videos</div>
+    <div class="channel">&#35; updates</div>
+    <div class="channel">&#35; faq</div>
+  </div>
+</body>
+</html>

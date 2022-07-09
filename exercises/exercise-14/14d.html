@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overlay</title>
+  <style>
+    body {
+      padding-bottom: 3000px;
+    }
+
+    .right-sidebar {
+      position: fixed;
+      width: 100px;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      background-color: green;
+      color: white;
+    }
+
+    .modal {
+      position: fixed;
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.4);
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      background-color: white;
+      width: 400px;
+      height: 150px;
+      padding-left: 20px;
+      border-radius: 10px;
+    }
+
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="right-sidebar">right sidebar</div>
+  <div class="modal">
+    <div class="box">
+      <p style="font-size: 30px; font-weight: bold; margin-top: 20px; margin-bottom: 10px;">Modal Title</p>
+      <p style="margin-bottom: 10px;">This is a modal</p>
+      <button>Close</button>
+    </div>
+  </div>
+</body>
+</html>
